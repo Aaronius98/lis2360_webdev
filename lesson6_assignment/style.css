@@ -1,10 +1,10 @@
 @charset "UTF-8";
-/*Style sheet by Aaron Baughman, completed 3/24/19*/
+/*Style sheet by Aaron Baughman, updated 4/7/19*/
 body {
 	font-family: geneva, arial, helvetica, san-serif;
 	font-size:15px;
 	line-height:1.6em;
-	background-color: #dee9ed;
+	background-color: #271c16;
 	margin: 0;
 	padding: 0;
 	color: #875c45;
@@ -17,7 +17,6 @@ h1 { /*Styles main heading */
 }
 h2 { /*Styles second level heading */
 	color: #271c16;
-	background-color: #875c45;
 	font-size: 1.5em;
 	padding: 10px;
 	margin-top:20px;	
@@ -28,13 +27,13 @@ p { /*Styles paragraph text */
 	padding-right: 30px;
 	padding-left: 30px; 
 }
-img.center { /*formats image layout*/
+img.center { /*formats image layout */
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
 	border: solid #875c45 2px;
-}
+} 
  
 li { /*Aligns odered list */
 	margin-left: 50px;
@@ -42,7 +41,7 @@ li { /*Aligns odered list */
 ul { /*Aligns unordered list */
 	margin-left: 15px;
 }
-table.center { /*Modifies first table to center on page*/
+table.center { /*Modifies first table to center on page */
   margin-left:auto;
 	margin-right:auto;
 	border: 1px solid black;
@@ -81,4 +80,33 @@ a:visited {
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
 	text-decoration: none;
 }
-
+/* DIV STYLES FOR PAGE LAYOUT*/
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #fff;
+	overflow: hidden;
+	
+}
+#header {
+		width: 100%;
+		background-color: #dee9ed;
+		border-bottom: 1px solid #b37351;
+}
+#content {
+		width: 600px;
+		float: left;
+}
+#sidebar{
+	width: 300px;
+	float: left;
+}
+#footer {
+		width: 100%;
+		background-color: #dee9ed;
+		border-top: 1px solid #b37351;
+		clear: both;
+}
+#footer p{
+	margin: 0;
+}
