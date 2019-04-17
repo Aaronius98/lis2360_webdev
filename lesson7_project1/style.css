@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*Style sheet by Aaron Baughman, updated 4/7/19*/
+/*Style sheet by Aaron Baughman, completed 2/6/19*/
 body {
 	font-family: geneva, arial, helvetica, san-serif;
 	font-size:15px;
@@ -91,7 +91,6 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 #header {
 		width: 100%;
 		background-color: #dee9ed;
-		border-bottom: 1px solid #b37351;
 }
 #content {
 		width: 600px;
