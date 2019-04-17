@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*Style sheet by Aaron Baughman, updated 4/7/19*/
+body {
+	font-family: geneva, arial, helvetica, san-serif;
+	font-size:15px;
+	line-height:1.6em;
+	background-color: #271c16;
+	margin: 0;
+	padding: 0;
+	color: #875c45;
+}
+h1 { /*Styles main heading */
+	line-height: 50px;
+	margin-top: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+h2 { /*Styles second level heading */
+	color: #271c16;
+	font-size: 1.5em;
+	padding: 10px;
+	margin-top:20px;	
+}
+p { /*Styles paragraph text */
+
+	margin-top:20px;	 
+	padding-right: 30px;
+	padding-left: 30px; 
+}
+img.center { /*formats image layout */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+	border: solid #875c45 2px;
+} 
+ 
+li { /*Aligns odered list */
+	margin-left: 50px;
+}
+ul { /*Aligns unordered list */
+	margin-left: 15px;
+}
+table.center { /*Modifies first table to center on page */
+  margin-left:auto;
+	margin-right:auto;
+	border: 1px solid black;
+  background-color: #b37351;
+  color: #271c16
+  }
+	table { /* Modifies style of table on index page */
+  border: 1px solid black;
+  color: #b37351; 
+}
+td { /*Adds a border around the color swatches*/
+	border: 1px solid black;
+}
+iframe { /*This modifies the embedded iframe video to center on the page*/
+    display: block;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    border: solid #b37351;
+}
+hr { /*Modifies horizontal rule*/
+	border: solid #b37351 1px;
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #b37351;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #b37351;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+/* DIV STYLES FOR PAGE LAYOUT*/
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #fff;
+	overflow: hidden;
+	
+}
+#header {
+		width: 100%;
+		background-color: #dee9ed;
+		border-bottom: 1px solid #b37351;
+}
+#content {
+		width: 600px;
+		float: left;
+}
+#sidebar{
+	width: 300px;
+	float: left;
+}
+#footer {
+		width: 100%;
+		background-color: #dee9ed;
+		border-top: 1px solid #b37351;
+		clear: both;
+}
+#footer p{
+	margin: 0;
+}
